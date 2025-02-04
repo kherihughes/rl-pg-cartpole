@@ -1,0 +1,5 @@
+torch>=1.9.0
+numpy>=1.19.2
+gymnasium>=0.29.0
+matplotlib>=3.3.2
+wandb>=0.12.0 
