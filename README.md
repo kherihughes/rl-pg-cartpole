@@ -61,11 +61,11 @@ print(f"Mean evaluation reward: {mean_reward}")
 
 ## Performance
 
-On the CartPole-v1 environment, this implementation:
-- Solves the environment (reward > 195) in about 30-40 iterations
-- Achieves a final mean reward of ~500 (maximum possible)
-- Shows stable learning with consistent convergence
-- Requires minimal hyperparameter tuning
+On the CartPole-v1 environment, this implementation typically:
+- Solves the environment (average reward > 195 over 100 episodes) within approximately 30-50 training iterations.
+- Reaches near-maximum performance (average reward approaching 500) with continued training.
+- Shows stable learning dynamics due to the value function baseline and advantage normalization.
+- Works well with the provided default hyperparameters.
 
 ## Project Structure
 
